@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Bikes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./media.css">
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- barlow font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- roboto font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+
+    <!-- font awsome library link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-- navbar start -->
+    <nav class="navbar-container">
+        <div class="logo">
+            <img src="./images/Group 4 (1).png" alt="logo">
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+            <li><a class="active" href="#">SHOP</a></li>
+            <li><a href="#">BIKES</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
+
+            <div class="icon-1">
+                <div class="cart">
+                    <img src="./images/Group 3.png" alt="">
+                  
+    
+                </div>
+                <div class="profile">
+                  
+                    <img src="./images/Vector.png" alt="">
+    
+                </div>
+            </div>
+        </ul>
+        <div class="icon">
+            <div class="cart">
+                <img src="./images/Group 3.png" alt="">
+              
+
+            </div>
+            <div class="profile">
+              
+                <img src="./images/Vector.png" alt="">
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Main section -->
+
+<section>
+    <div id="main">
+    <div class="text-cycle">
+<div class="text">
+        <h1>THE <br>
+            EUPHORIA</h1>
+        </div>
+            <div class="cycle-img">
+                <div class="shadow-wrapper">
+                    <img src="./images/Group 6.png" alt="">
+                </div>
+            </div>
+    </div>
+
+   <div id="calculation">
+    <div class="colors">
+        <h1>COLORS</h1>
+        <div id="color-options">
+            <div class="color-option">
+                <input type="radio" name="color" value="white" id="white" class="option">
+                <label for="white" class="color-label"></label>
+                <span class="color-name">White</span>
+            </div>
+            <div class="color-option">
+                <input type="radio" name="color" value="grey" id="grey" class="option">
+                <label for="grey" class="color-label"></label>
+                <span class="color-name">Grey</span>
+            </div>
+            <div class="color-option">
+                <input type="radio" name="color" value="red" id="red" class="option">
+                <label for="red" class="color-label"></label>
+                <span class="color-name">Red</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="size">
+        <h1>SIZE</h1>
+        <button id="btn" class="size-btn">SMALL</button>
+        <button id="btn" class="size-btn">MEDIUM</button>
+        <button id="btn" class="size-btn">LARGE</button>
+    </div>
+
+    <div class="cart-order">
+        <div class="result" id="result">
+            <p>Price: <span id="price">$2500</span></p>
+            <p>Weight: <span id="weight">14.18kg</span></p>
+          
+        </div>
+        <button id="cart-btn">ADD TO CART</button>
+    </div>
+</div>
+</div>
+</section>
+
+  <section id="section2">
+    <div class="cycle-parts">
+        <div class="parts">
+            <img src="./images/Rectangle 18.png" alt="">
+
+        </div>
+        <div class="parts">
+            <img src="./images/Rectangle 19.png" alt="">
+
+        </div>
+        <div class="parts">
+            <img src="./images/Rectangle 17 (1).png" alt="">
+
+        </div>
+    </div>
+    <div id="customize">
+        <h2>CUSTOMIZE</h2>
+        <hr class="line">
+    
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="./images/Rectangle 33.png" alt="Image 1">
+                    <div class="caption">SCADDLE</div>
+                </div>
+                <div class="slide">
+                    <img src="./images/Rectangle 34.png" alt="Image 2">
+                    <div class="caption">CRANK GEAR</div>
+                </div>
+                <div class="slide">
+                    <img src="./images/Rectangle 35.png" alt="Image 3">
+                    <div class="caption">FRAME</div>
+                </div>
+                <div class="slide">
+                    <img src="./images/Rectangle 33.png" alt="Image 4">
+                    <div class="caption">SCADDLE</div>
+                </div>
+                <div class="slide">
+                    <img src="./images/Rectangle 34.png" alt="Image 5">
+                    <div class="caption">CRANK GEAR</div>
+                </div>
+                <div class="slide">
+                    <img src="./images/Rectangle 35.png" alt="Image 6">
+                    <div class="caption">>FRAME</div>
+                </div>
+            </div>
+            <button class="next"><img src="./images/Arrow 1.png" alt="Next"></button>
+        </div>
+    </div>
+
+    <div id="description">
+       <p><span class="des" >DISCRIPTION</span><span class="specs">SPECS</span1></p>
+        
+        <h3>Be unique with your choice of ride.</h3>
+        <p class="para">The EUPHORIA turns obstacles into features. Its nimble, poppy feel makes even the most mundane rides feel like they're loaded with features to hop, skip and jump over. It's the kind of bike that makes new trails feel as familiar as the back of your hand. <br> <br>
+
+            27.5 is the fun-sized wheel size. Smaller wheels provide an ideal balance between toughness and weight saving making them the most fleet-footed (or quick fingered) whether launching logs or weaving through stumps. With its quick and agile character, the 5010 has become a go-to plaything for progressive riders the world over and the only contender on any backyard trails.
+            
+            </p> 
+        
+    </div>
+    <div id="follow-btn">
+    <button class="unique-web">
+        <a href="https://www.dsmotorsunique.com/"> FOLLOW US @UNIQUEBIKE</a>
+    </button>
+</div>
+<div id="box-img">
+    <div class="img-box">
+        <div class="img"><img src="./images/Rectangle 9.png" alt=""></div>
+        <div class="img"><img src="./images/Rectangle 12.png" alt=""></div>
+    </div>
+    <div class="img-box"><img src="./images/Rectangle 10.png" alt=""></div>
+    <div class="img-box">
+        <div class="img"><img src="./images/Rectangle 13.png" alt=""></div>
+        <div class="img"><img src="./images/Rectangle 11.png" alt=""></div>
+    </div>
+</div>
+    
+  </section>
+
+  <footer>
+    <div id="footer">
+        <div id="logo-img">
+            <img src="./images/Group 4 (1).png" alt="">
+        </div>
+    
+    
+        <div class="para-box">
+            <h3>FAQS</h3>
+            <p>TERMS & CONDITIONS</p>
+            <p>PRIVACY SUPPORT</p>
+            <p>HELP</p>
+        </div>
+        <div class="para-box">
+            <h3>SUPPORT</h3>
+            <p>Assembly Guides</p>
+               <p> Payment</p>
+               <p> Shipping & Delivery</p>
+               <p> Returns & Refunds</p>
+        </div>
+        <div class="para-box">
+            <h3>SERVICE@UNIQUEBIKES.COM</h3>
+            <p>45 Fairground Rd, New York, United
+                States</p>
+        </div>
+    </div>
+   
+     <div id="copyright">
+        <p>©Copyright Unique bikes</p>
+     </div>
+
+  </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
